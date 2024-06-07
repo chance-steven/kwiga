@@ -1,0 +1,29 @@
+
+*,*::before,::after{
+    margin: 0;
+    padding: 0
+}
+.container{
+    background-color: gray;
+}
+.item1{
+    background-color: orange;
+    display:flex;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+ .container.item1 .box-one{
+    background-color: aliceblue;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    gap: 30px;
+}
+    
+
+    
+

@@ -1,0 +1,32 @@
+.pass{
+    display: flex;
+    justify-content: space-between
+    
+}
+.boite{
+    background: url(chnc.jpg);
+    width: 300px;
+    height: 550px;
+    border: 1px solid #666;
+    animation-name: animation-one;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+@keyframes animation-one{
+    from{
+        background:green
+    }
+    to{
+        background: tomato;
+    }
+    0%{
+        background: url(chnc3.jpg);
+    
+    }
+    50%{
+        background: url(chnc2.jpg);
+    }
+    78%{
+        background: url(chnc4.jpg);
+    }
+}
